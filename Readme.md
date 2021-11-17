@@ -17,7 +17,7 @@ submit the jar to your cluster with spark scripts:
 
 or as standalone app:
 
-`java -cp '/opt/mapr/spark/spark-2.4.4/jars/*':`mapr classpath`:../stream-mapr-spark_2.11-1.0.jar DStream "/user/mapr/pump:topic0"`
+```java -cp '/opt/mapr/spark/spark-2.4.4/jars/*':`mapr classpath`:../stream-mapr-spark_2.11-1.0.jar DStream "/user/mapr/pump:topic0"```
 
 populate the stream with some data:
 
