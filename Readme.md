@@ -22,4 +22,8 @@ or as standalone app:
 populate the stream with some data:
 
 `mapr perfproducer -ntopics 1 -path /user/mapr/pump -nmsgs 50 -npart 1 -rr`
+
+check current offset for consumer:
+
+`maprcli stream cursor list -path /user/mapr/pump -topic topic0`
     
